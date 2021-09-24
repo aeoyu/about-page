@@ -1,0 +1,235 @@
+body {
+    margin: 0;
+    background-color: #eeeeee
+}
+
+nav {
+    flex-wrap: wrap;
+    padding: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* About/Work/Contact us tag */
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(119, 119, 119);
+    font-family: 'Roboto', sans-serif;
+}
+
+nav a:hover {
+    color: #22140e;
+}
+
+.title {
+    margin-left: 0.5cm;
+    font-size: 25px;
+    display: inline-block;
+}
+
+#logoname {
+    color: black;
+    display: wrap;
+    flex wrap: wrap;
+}
+
+nav ul {
+    margin-right: 0.5cm;
+    margin-left: -1.3em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 30px;
+}
+
+nav ul li {
+    display: inline-flex;
+}
+
+.aboutus {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(34, 34, 34);
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    margin-top: 2rem;
+}
+
+.title-wrapper {
+    width: 120px;
+}
+
+.title-heading {
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    width: 300px;
+    min-height: 113px;
+    transform: rotate(-90deg) translateX(0);
+    margin-left: -1em;
+}
+
+.h1img {
+    display: flex;
+    object-fit: cover;
+    justify-content: left;
+    margin-left: -1rem;
+    */ flex-wrap: wrap;
+}
+
+.img {
+    /* margin-left: -4em; */
+    width: 307px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.intro {
+    flex: 1;
+    margin: 2em;
+    margin-top: 1rem;
+}
+
+.intro h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.intro p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.p-text {
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.intro h3 {
+    font-size: 20pt;
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Got lazy to complete code this to make it look bette*/
+
+/* 
+google maps and sign up form  */
+
+#formandmap {
+    background-color: #e0e0e0
+}
+
+.stylize {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.map-style {
+    margin-top: 3rem;
+}
+
+.map {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 100;
+    width: 800px;
+    height: 600px;
+    border: 0;
+    object-fit: cover;
+}
+
+.maps-title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* sign-up form */
+
+.signup-data {
+    margin-top: 3rem;
+}
+
+.signup-title {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+form {
+    margin: 0 auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    /* border: 2px solid rgb(138, 138, 138); */
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: 0;
+}
+
+legend {
+    display: none;
+}
+
+button {
+    margin: 10px 0;
+    padding: 10px 15px;
+    max-width: max-content;
+    align-self: flex-end;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input {
+    /* width: 20ch; */
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: transparent
+}
+
+textarea {
+    background-color: transparent
+}
+
+/* google maps and sign up form  */
+
+/* END-- Got lazy to complete code this to make it look bette--*/
+
+footer {
+    text-align: center;
+}
+
+/* Media element to drop down the navigation elements*/
+
+@media screen and (max-width: 600px) {
+    nav {
+        flex-direction: wrap;
+    }
+    nav ul {
+        flex-direction: wrap;
+    }
+    .title-heading {
+        transform: none;
+        margin-left: 1em;
+    }
+    .img {
+        width: 100%;
+    }
+    .h1img {
+        flex-direction: column;
+    }
+}
