@@ -6,7 +6,7 @@
 ## Github Repo
 - https://github.com/aeoyu/cpnt260-a1
 ## Github Pages Site
-- aeoyu.github.io/cpnt260-a1/
+- https://aeoyu.github.io/cpnt260-a1/
 ## Who is your client?
 - A made up restaurant called Kitchen Restaurant
 ## What do they do?
