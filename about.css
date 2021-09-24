@@ -33,7 +33,7 @@ nav a:hover {
 #logoname {
     color: black;
     display: wrap;
-    flex wrap: wrap;
+    flex-wrap: wrap;
 }
 
 nav ul {
@@ -77,7 +77,7 @@ nav ul li {
     object-fit: cover;
     justify-content: left;
     margin-left: -1rem;
-    */ flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 .img {
@@ -132,17 +132,25 @@ google maps and sign up form  */
 }
 
 .map-style {
+    flex: 1 1 400px;
     margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .map {
-    display: flex;
+    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    /* display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     max-width: 100;
     width: 800px;
     height: 600px;
     border: 0;
-    object-fit: cover;
+    object-fit: cover; */
 }
 
 .maps-title {
@@ -153,6 +161,7 @@ google maps and sign up form  */
 /* sign-up form */
 
 .signup-data {
+    flex: 1 1 400px;
     margin-top: 3rem;
 }
 
