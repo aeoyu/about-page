@@ -68,7 +68,8 @@ nav ul li {
     position: relative;
     width: 300px;
     min-height: 113px;
-    transform: rotate(-90deg) translateX(0);
+    transform: rotate(-90deg);
+    /* translateX(0); */
     margin-left: -1em;
 }
 
